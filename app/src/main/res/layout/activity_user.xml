@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:backgroundTint="#FF115F9E"
+        android:hint="Enter the secret message !!"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputText"
+        android:layout_margin="16dp"
+        android:backgroundTint="#FF115F9E"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/encBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Encrypt"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/decBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/encBtn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-2dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Decrypt"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/log_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/roundedbutton"
+        android:text="LOG OUT"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/lockImage"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_below="@+id/decBtn"
+        android:layout_centerInParent="true"
+        android:src="@android:drawable/ic_lock_idle_lock"
+        android:visibility="gone" />
+</RelativeLayout>

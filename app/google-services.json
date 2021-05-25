@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "867662088674",
+    "firebase_url": "https://vespdf-7a65f.firebaseio.com",
+    "project_id": "vespdf-7a65f",
+    "storage_bucket": "vespdf-7a65f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867662088674:android:a76731caa843e059b311bb",
+        "android_client_info": {
+          "package_name": "com.example.register"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867662088674-4jjht6qg94vabdvv0b95dcbkmuq91uoq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd73KbiqiB8SDSD3FnRy4lDo_7ynV2mCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867662088674-4jjht6qg94vabdvv0b95dcbkmuq91uoq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
